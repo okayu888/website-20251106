@@ -1,0 +1,90 @@
+  
+    body {
+      font-family: 'Yu Gothic', sans-serif;
+      margin: 0;
+      background-color: #fffaf0;
+      color: #4a3f35;
+    }
+    header {
+      background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    header a {
+      background-color: #b85c38;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 1.8em;
+    }
+    .intro {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+    .intro img {
+      width: 400px;
+      border-radius: 10px;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+    .menu img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .menu ul {
+      list-style: none;
+      padding: 0;
+    }
+    .menu li {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ddd;
+      padding: 8px 0;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .gallery img {
+      width: 220px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #5a3e2b;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9em;
+    }
+  
